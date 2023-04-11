@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pcce-wavelets"
+version = "0.1"
+description = "no description"
+authors = ["pythonistabr <gustavo.oceanografia@gmail.com>"]
+license = "mit"
+readme = "README.md"
+packages = [{include = "pcce_wavelets"}]
+
+[tool.poetry.dependencies]
+python = ">= 3.8"
+jupyter = "^1.0.0"
+pywavelets = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
