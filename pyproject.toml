@@ -11,6 +11,8 @@ packages = [{include = "pcce_wavelets"}]
 python = ">= 3.8"
 jupyter = "^1.0.0"
 pywavelets = "^1.4.1"
+matplotlib = "^3.7.1"
+pandas = "^2.0.0"
 
 
 [build-system]
