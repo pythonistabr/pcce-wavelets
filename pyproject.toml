@@ -8,12 +8,15 @@ readme = "README.md"
 packages = [{include = "pcce_wavelets"}]
 
 [tool.poetry.dependencies]
-python = ">= 3.8"
+python = ">= 3.8, <3.12"
 jupyter = "^1.0.0"
 pywavelets = "^1.4.1"
 matplotlib = "^3.7.1"
 pandas = "^2.0.0"
 cmocean = "^3.0.3"
+scipy = "^1.10.1"
+scaleogram = "^0.9.5"
+seaborn = "^0.12.2"
 
 
 [build-system]
