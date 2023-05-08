@@ -3,3 +3,5 @@
 *.nc4
 *.txt
 *.xlsx
+.ipynb_checkpoints/*
+src/scaleogram
